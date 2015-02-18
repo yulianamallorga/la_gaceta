@@ -2,8 +2,8 @@
 	width: 300px;
 }
 
-.logo a img{
-	background-color: #ffffff;
-	padding-top: 3px;
-	padding-bottom: 3px;
+.logo a{
+	padding: 14px 0;
+	background-color: #D6D1D1;
 }
+

@@ -16,3 +16,7 @@ a, img{
 	display: inline-block;
 	width: 100%;
 }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
