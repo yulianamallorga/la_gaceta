@@ -1,0 +1,9 @@
+.logo{
+	width: 300px;
+}
+
+.logo a img{
+	background-color: #ffffff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
