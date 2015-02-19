@@ -7,3 +7,7 @@
 	font-weight: bold;
 	padding: 21px 10px;
 }
+
+.menu ul li a:hover{
+	font-size: 18px;
+}
