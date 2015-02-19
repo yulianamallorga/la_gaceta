@@ -1,0 +1,34 @@
+/*.opened-modal {
+	position: relative;
+	overflow: hidden;
+}
+
+.opened-modal .modal{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(204, 204, 204, 0.78);
+	border-bottom: 3px solid gray;
+}*/
+
+.opened-modal .modal .template{
+	position: absolute;
+	width: 500px;
+	left: 50%;
+	margin-top: 30px;
+	margin-left: -250px;
+	background: #fff;
+	padding: 20px;
+}
+
+.opened-modal .modal .template button{
+	position: absolute;
+	left: 100%;
+	top: 0;
+	padding: 10px;
+	background-color: #000;
+	color: #fff;
+	border: 0; 
+}

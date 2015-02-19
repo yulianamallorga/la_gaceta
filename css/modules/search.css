@@ -3,12 +3,12 @@
 	margin: 2px 0;
 }
 
-form.search input{
+.search input{
 	padding: 3px;
 	width: 852px;
 }
 
-form.search .icon-search{
+.search .icon-search{
 	color: #0168ac;
 	padding: 4px;
 }

@@ -15,9 +15,9 @@
 	<link rel="stylesheet" href="css/modules/logo.css">
 	<link rel="stylesheet" href="css/modules/menu.css">
 	<link rel="stylesheet" href="css/modules/search.css">
-	<link rel="stylesheet" href="css/modules/section.css">
 	<link rel="stylesheet" href="css/modules/footer.css">
 	<link rel="stylesheet" href="css/modules/news.css">
+	<link rel="stylesheet" href="css/modules/modal.css">
 
 	<link rel="stylesheet" href="css/modules/modifiers.css">
 
@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="css/layouts/l-index.css">
 
 </head>
-<body>
+<body class="opened-modal">
 
 	<!--header-->
 	<header class="clearfix">
@@ -72,64 +72,60 @@
 			<div class="wrapper-news clearfix">
 
 				
-				<div class="news">
+				<div class="news" data-title="titulo de la nota 1" data-img="img/img1.jpg" data-description="lorem lorem lorem lorem - description de la nota 1">
 					<div class="inner-box">
 						<figure>
 							<img src="img/img1.jpg"/>
 						</figure>
 						<h3>Deportes</h3>
-						<h2>titulo</h2>						
+						<h2>Título 1</h2>						
 					</div>
 				</div>
-				<div class="news">
+				<div class="news" data-title="titulo de la nota 2" data-img="img/img2.jpg" data-description="lorem lorem lorem lorem - description de la nota 2">
 					<div class="inner-box">
 						<figure>
 							<img src="img/img2.jpg"/>
 						</figure>
 						<h3>Deportes</h3>
-						<h2>titulo</h2>						
+						<h2>Título 2</h2>						
 					</div>
 				</div>
-				<div class="news">
+				<div class="news" data-title="titulo de la nota 3" data-img="img/img3.jpg" data-description="lorem lorem lorem lorem - description de la nota 3">
 					<div class="inner-box">
 						<figure>
 							<img src="img/img3.jpg"/>
 						</figure>
 						<h3>Deportes</h3>
-						<h2>titulo</h2>						
+						<h2>Título 3</h2>						
 					</div>
 				</div>
-				<div class="news">
+				<div class="news" data-title="titulo de la nota 4" data-img="img/img4.jpg" data-description="lorem lorem lorem lorem - description de la nota 4">
 					<div class="inner-box">
 						<figure>
 							<img src="img/img4.jpg"/>
 						</figure>
 						<h3>Deportes</h3>
-						<h2>titulo</h2>						
+						<h2>Título 4</h2>						
 					</div>
 				</div>
-				<div class="news">
+				<div class="news" data-title="titulo de la nota 5" data-img="img/img5.jpg" data-description="lorem lorem lorem lorem - description de la nota 5">
 					<div class="inner-box">
 						<figure>
 							<img src="img/img5.jpg"/>
 						</figure>
 						<h3>Deportes</h3>
-						<h2>titulo</h2>						
+						<h2>Título 5</h2>						
 					</div>
 				</div>
-				<div class="news">
+				<div class="news" data-title="titulo de la nota 6" data-img="img/img6.jpg" data-description="lorem lorem lorem lorem - description de la nota 6">
 					<div class="inner-box">
 						<figure>
 							<img src="img/img6.jpg"/>
 						</figure>
 						<h3>Deportes</h3>
-						<h2>titulo</h2>						
+						<h2>Título 6</h2>						
 					</div>
 				</div>
-
-
-
-
 
 			</div>
 
@@ -140,7 +136,7 @@
 	<!--footer-->
 	<footer>
 		
-		<div class="back-to-top">Regresar arriba</div>
+		<div class="back-to-top">Ir arriba</div>
 		
 		<div class="inner-container">
 
@@ -153,7 +149,7 @@
 						<li><a href="#">NATIONAL</a></li>
 						<li><a href="#">NATIONAL</a></li>
 						<li><a href="#">NATIONAL</a></li>
-						<li><a href="#">NATIONAL</a></li>
+						<li><a href="$(this)#">NATIONAL</a></li>
 						<li><a href="#">NATIONAL</a></li>
 						<li><a href="#">NATIONAL</a></li>
 						<li><a href="#">NATIONAL</a></li>
@@ -234,6 +230,22 @@
 
 	</footer><!--footer-->
 
+	<!--.modal-->
+	<div class="modal ">
+		
+		<div class="template">
+			<button class="close">x</button>
+			<figure>
+				<img src="img/img5.jpg"/>
+			</figure>
+			<h2>Title</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quidem, cum quae! Quisquam explicabo repellendus, quasi. Ratione nostrum, corporis aliquid, maiores fugiat earum quos eum! Ullam quasi temporibus porro, dolorum.</p>
+		</div>
+
+	</div><!--.modal-->
+	
+	<script src="js/vendor/jquery-1.9.1.js"></script>
+	<script src="js/main.js"></script>
 	
 </body>
 </html>
