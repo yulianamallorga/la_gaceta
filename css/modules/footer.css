@@ -10,7 +10,7 @@ footer .back-to-top{
 }
 
 footer .back-to-top:hover{
-	font-size: 18px;
+	color: #000;
 	cursor: pointer;
 }
 
