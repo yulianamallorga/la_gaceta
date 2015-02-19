@@ -24,3 +24,7 @@ a, img{
 span{
 	display: inline-block;
 }
+
+h2, h3{
+	text-align: center;
+}
