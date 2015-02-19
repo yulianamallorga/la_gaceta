@@ -1,5 +1,11 @@
+.l-index .wrapper-news{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 .l-index .news{
 	width: 33.333%;
 	padding: 10px;
 	float: left;
 }
+

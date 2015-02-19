@@ -1,3 +1,7 @@
+.news .inner-box{
+	border: 1px solid silver;
+}
+
 .news figure{
 	height: 250px;
 }
