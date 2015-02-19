@@ -1,11 +1,11 @@
-form.search{
+.search{
 	clear: both;
 	margin: 2px 0;
 }
 
 form.search input{
 	padding: 3px;
-	width: 866px;
+	width: 852px;
 }
 
 form.search .icon-search{
