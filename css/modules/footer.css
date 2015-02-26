@@ -16,12 +16,17 @@ footer .back-to-top:hover{
 
 footer .footer-content{
 	border-bottom: solid 1px gray;
-	padding: 0 162px;
+
+}
+
+footer .footer-content .wrapper-col{
+	width: 45%;
+	margin: 0 auto;
 }
 
 footer .footer-content .col{
 	display: inline-block;
-	padding: 5px 50px;
+	text-align: center;
 
 }
 
@@ -32,6 +37,8 @@ footer .footer-content .col ul li a{
 
 footer .footer-content .col ul li h4{
 	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 footer .footer-bottom{

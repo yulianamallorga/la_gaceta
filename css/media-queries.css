@@ -16,6 +16,34 @@
 	}
 
 	/* header */
+
+	/*section*/
+
+	section.l-index{
+		width: 100%;
+	} 
+
+	section.l-index .wrapper-news figure{
+		height: 200px;
+	}
+
+	/*section*/
 	
+	/*footer*/
+
+	footer .footer-content{
+		width: 100%; 
+	}
+
+	footer .footer-content .wrapper-col{
+		width: 55%;
+	}
+
+	footer .footer-content .col{
+		width: 33%;
+
+	}
+
+	/*footer*/
 	
 /* Mobile */

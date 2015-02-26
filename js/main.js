@@ -12,3 +12,7 @@ $('button.close').on('click', function(){
 	$('.modal').toggleClass('hide');
 	$('.news').removeClass('selected');
 });
+
+$('.open-menu').on('click', function(){
+	$('.sub-menu').toggleClass('hide');
+});
