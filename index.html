@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="css/layouts/l-index.css">
 
 	<link rel="stylesheet" href="css/media-queries.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
 
 </head>
 <body>
@@ -258,21 +259,16 @@
 
 	</footer><!--footer-->
 
-	<!--.modal-->
-	<div class="modal hide">
-		
-		<div class="template">
-			<button class="close">x</button>
-			<figure>
-				<img src="img/img5.jpg"/>
-			</figure>
-			<h2>Title</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quidem, cum quae! Quisquam explicabo repellendus, quasi. Ratione nostrum, corporis aliquid, maiores fugiat earum quos eum! Ullam quasi temporibus porro, dolorum.</p>
+	<script id="template-modal" type="text/template">
+		<div id="modal">
+			<div class="news-title">Loading title</div>
+			<div class="news-img"><img src=""/></div>
+			<div class="news-description">Loading description</div>	
 		</div>
-
-	</div><!--.modal-->
+	</script>
 	
 	<script src="js/vendor/jquery-1.9.1.js"></script>
+	<script src="js/vendor/jquery.fancybox.js"></script>
 	<script src="js/main.js"></script>
 	
 </body>
