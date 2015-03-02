@@ -19,7 +19,6 @@ $('.news').on('click', function(){
 	window.title = $(this).data('title');
 	window.img = $(this).data('img');
 	window.description = $(this).data('description');
-
 });
 	
 $('.news').fancybox({
