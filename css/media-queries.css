@@ -3,9 +3,6 @@
 @media only screen and (max-width: 750px){
 	
 	/* header */
-	header .search{
-		width: 650px;
-	}
 
 	header .menu{
 		display: none;
@@ -23,24 +20,16 @@
 		width: 100%;
 	} 
 
-	section.l-index .wrapper-news figure{
-		height: 200px;
+	section.l-index .wrapper-news .news{
+		width: 100%;
 	}
 
 	/*section*/
 	
 	/*footer*/
 
-	footer .footer-content{
-		width: 100%; 
-	}
-
-	footer .footer-content .wrapper-col{
-		width: 55%;
-	}
-
 	footer .footer-content .col{
-		width: 33%;
+		width: 100%;
 
 	}
 

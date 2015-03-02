@@ -20,7 +20,7 @@ footer .footer-content{
 }
 
 footer .footer-content .wrapper-col{
-	width: 25%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -28,6 +28,8 @@ footer .footer-content .col{
 	display: inline-block;
 	text-align: center;
 	padding: 10px;
+	width: 33%;
+
 
 }
 
@@ -43,7 +45,8 @@ footer .footer-content .col ul li h4{
 }
 
 footer .footer-bottom{
-	padding-top: 1%;
+	padding-top: 2%;
+	background-color: #fff;
 }
 
 footer .footer-logo{
@@ -86,4 +89,4 @@ footer .social-links ul li.three{
 footer .social-links ul li.four{
 	background-color: #ff4e2e;
 }
-	background-color: #0168ac;
+

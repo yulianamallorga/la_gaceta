@@ -1,6 +1,7 @@
 .search{
 	background: #3461F1;
 	padding: 5px;
+	z-index: 1;
 }
 
 .search input{
